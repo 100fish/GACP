@@ -1,0 +1,927 @@
+tex_back_v
+==========
+  Textures:
+    - last_back_s3tc
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB)), multiply by 2
+         A = 0
+
+
+
+tex_ki_ue_v
+===========
+  Textures:
+    - last_ki_ue_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_ki_yoko_a_v
+===============
+  Textures:
+    - last_ki_yoko_a_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_ki_yoko_b_v
+===============
+  Textures:
+    - last_ki_yoko_b_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_kusa_uzu_v
+==============
+  Textures:
+    - last_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+    - last_kusa_uzu_s3tc
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 85, 85, 85
+
+  Steps:
+    1: RGB = (0, 0, 0), then add (tex #1 RGB)
+         A = 0
+    2: RGB = (lerp from (prev. RGB) to (tex #3 RGB) using (tex #3 A))
+         A = 0
+    3: RGB = ((vertex RGB) * (prev. RGB))
+         A = 0
+    4: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0
+
+
+
+tex_mawari_otiba_v
+==================
+  Textures:
+    - last_mawari_otiba_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_mawari_otiba_v_x
+====================
+  Textures:
+    - last_mawari_otiba_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_plant_brown_v
+=================
+  Textures:
+    - last_plant_brown_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 70, 70, 70, 255
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (70, 70, 70)
+         A = 0, then add (prev. A)
+    3: RGB = (prev. RGB), multiply by 2
+         A = ((prev. A) * (vertex A))
+
+
+
+tex_plant_clover_v
+==================
+  Textures:
+    - last_plant_clover_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 60, 70, 70, 255
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (60, 70, 70)
+         A = 0, then add (prev. A)
+    3: RGB = (prev. RGB), multiply by 2
+         A = ((prev. A) * (vertex A))
+
+
+
+tex_plant_hapa_v
+================
+  Textures:
+    - last_plant_hapa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 50, 50, 50, 255
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (50, 50, 50)
+         A = 0, then add (prev. A)
+    3: RGB = (prev. RGB), multiply by 2
+         A = ((prev. A) * (vertex A))
+
+
+
+tex_plant_momiji_v
+==================
+  Textures:
+    - last_plant_momiji_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_plant_red_v
+===============
+  Textures:
+    - last_plant_red_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 70, 70, 70, 255
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (70, 70, 70)
+         A = 0, then add (prev. A)
+    3: RGB = (prev. RGB), multiply by 2
+         A = ((prev. A) * (vertex A))
+
+
+
+tex_plant_sida_v
+================
+  Textures:
+    - last_plant_sida_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_plant_takeha_v
+==================
+  Textures:
+    - last_plant_takeha_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_plant_yellow_v
+==================
+  Textures:
+    - last_plant_yellow_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 70, 70, 70, 255
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = (tex #2 RGB), then add (70, 70, 70)
+         A = 0, then add (prev. A)
+    3: RGB = (prev. RGB), multiply by 2
+         A = ((prev. A) * (vertex A))
+
+
+
+tex_sabi_kusa_v
+===============
+  Textures:
+    - last_sabi_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_take_soto_a_v
+=================
+  Textures:
+    - last_take_soto_a_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_take_soto_b_v
+=================
+  Textures:
+    - last_take_soto_b_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_take_soto_c_v
+=================
+  Textures:
+    - last_take_soto_c_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_take_uti_v
+==============
+  Textures:
+    - last_take_uti
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_tomare_line_v
+=================
+  Textures:
+    - last_tomare_line_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_tomare_sabi_v
+=================
+  Textures:
+    - last_tomare_sabi_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_wheel_v
+===========
+  Textures:
+    - last_kan_sabi_b_i4
+        Center: 0, 0
+    - last_kan_sabi_a_i4
+        Offset: 0.5, 0.5
+        Center: 0, 0
+        Scale: 0.5, 0.5
+    - last_wheel_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0
+    2: RGB = (tex #2 RGB)
+         A = 0, then add (prev. A)
+    3: RGB = ((vertex RGB) * (tex #3 RGB))
+         A = ((prev. A) * (vertex A))
+    4: RGB = (255, 255, 255), then add (prev. RGB)
+         A = 0
+    5: RGB = ((prev. RGB) * (tex #4 RGB)), multiply by 2
+         A = 0
+
+
+
+tex_zm_sabi_v
+=============
+  Textures:
+    - last_kan_sabi_b_i4
+        Center: 0, 0
+    - last_kan_sabi_a_i4
+        Offset: 0.5, 0.5
+        Center: 0, 0
+        Scale: 0.5, 0.5
+    - last_sabi_s3tc
+    - last_mask_sabi_i4
+        Center: 0, 0
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0
+    2: RGB = ((vertex RGB) * (tex #2 RGB))
+         A = 0
+    3: RGB = ((vertex RGB) * (tex #3 RGB))
+         A = 0
+    4: RGB = (255, 255, 255), then add (prev. RGB)
+         A = 0, then add (tex #4 A)
+    5: RGB = ((tex #5 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zn_tomare_moji_v_x
+======================
+  Textures:
+    - last_tomare_moji_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zo_tomare_tuti_v
+====================
+  Textures:
+    - last_tuti_a_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+    - last_mask_tomare_tuti_i4
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 85, 85, 85
+
+  Steps:
+    1: RGB = ((vertex RGB) * (tex #1 RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB))
+         A = 0
+    3: RGB = (prev. RGB), multiply by 2
+         A = 0, then add (tex #3 A)
+
+
+
+tex_zp_mawari_takeha_v
+======================
+  Textures:
+    - last_mawari_takeha_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zp_mawari_takeha_v_x
+========================
+  Textures:
+    - last_mawari_takeha_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zq_rock_v
+=============
+  Textures:
+    - last_rock_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zr_tuti_b_v
+===============
+  Textures:
+    - last_tuti_b_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+    - last_mask_hibi_i8
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0
+    2: RGB = -1 * (tex #3 RGB), then add (prev. RGB)
+         A = 0
+    3: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0
+
+
+
+tex_zr_tuti_b_v_x
+=================
+  Textures:
+    - last_tuti_b_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zt_tuti_kusa_v
+==================
+  Textures:
+    - last_tuti_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zt_tuti_kusa_v_x
+====================
+  Textures:
+    - last_tuti_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zu_kusa_v
+=============
+  Textures:
+    - last_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zu_kusa_v_x
+===============
+  Textures:
+    - last_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zv_tuti_a_v
+===============
+  Textures:
+    - last_tuti_a_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zv_tuti_a_v_x
+=================
+  Textures:
+    - last_tuti_a_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zx_kabe_v
+=============
+  Textures:
+    - last_kabe_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (prev. A)
+
+
+
+tex_zx_kabe_v_x
+===============
+  Textures:
+    - last_kabe_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0, then add (vertex A)
+
+
+
+tex_zy_kusa_nuki_v
+==================
+  Textures:
+    - last_kusa_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+    - last_mask_kusa_nuki_i8
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = 0
+    3: RGB = (0, 0, 0), then add (prev. RGB)
+         A = 0, then add (tex #3 A)
+
+
+
+tex_zz_plant_red_mizu_otiba_v_x
+===============================
+  Textures:
+    - last_plant_red_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = ((vertex A) * (prev. A))
+
+
+
+tex_zz_plant_yellow_mizu_otiba_v_x
+==================================
+  Textures:
+    - last_plant_yellow_s3tc
+    - last_all_shadow_s3tc
+        Offset: 0.0009587680106051266, 0.0009587680106051266
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Constant Colors:
+    - 255, 255, 255, 127
+
+  Steps:
+    1: RGB = ((tex #1 RGB) * (vertex RGB))
+         A = 0, then add (tex #1 A)
+    2: RGB = ((tex #2 RGB) * (prev. RGB)), multiply by 2
+         A = ((vertex A) * (prev. A))

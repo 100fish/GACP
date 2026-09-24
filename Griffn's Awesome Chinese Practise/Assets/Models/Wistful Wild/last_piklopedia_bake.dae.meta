@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: 794276ffa2c4d2c4282fa3e4b1306f19
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_back_ki_kage_v
+    second: {fileID: 2100000, guid: 9a8d63ed7fd000a4a9424705923d5b18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_back_tenjyo_v
+    second: {fileID: 2100000, guid: 94b9fa614e29d114db21d98020be0412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_back_v
+    second: {fileID: 2100000, guid: 6f8540bc174698c4883b1d135f1813de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_ue_v
+    second: {fileID: 2100000, guid: 231937335a7f19e41a03badca401635a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_ue_v_uv2
+    second: {fileID: 2100000, guid: 34b072a5ffcad5048a7d6700c2ad4fce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_yoko_a_v
+    second: {fileID: 2100000, guid: b688aa22f06c4924aac58ed2caff14f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_yoko_a_v_uv2
+    second: {fileID: 2100000, guid: 6d437dea78d380d4299aec7b8b5c63b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_yoko_b_v
+    second: {fileID: 2100000, guid: 95aab83a89f1d7e4eb5acc3fdf1313ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_ki_yoko_b_v_uv2
+    second: {fileID: 2100000, guid: b9a3b1d041113a443a143994be046d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_kusa_uzu_v
+    second: {fileID: 2100000, guid: e8df856ff35e0b94bb1ef1e2ce9c46cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_kusa_uzu_v_uv2
+    second: {fileID: 2100000, guid: ef99d180f70325744849964cccabfafc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_kusa_uzu_v_uv3
+    second: {fileID: 2100000, guid: 387190f6489f06a4496edf79d56755f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_mawari_otiba_v
+    second: {fileID: 2100000, guid: b952b54f539d699469214ecfb3a349d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_mawari_otiba_v_uv2
+    second: {fileID: 2100000, guid: 5e47fbddb25183a41bdfdf4e537a5ada, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_mawari_otiba_v_x
+    second: {fileID: 2100000, guid: 4ecaed9a1bd993543b7c361a1aab031d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_mawari_otiba_v_x_uv2
+    second: {fileID: 2100000, guid: 3f69e29bc36d02a4fa50ae1dcde6b8e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_brown_v
+    second: {fileID: 2100000, guid: 8f12b7a6f18282948ba60e891de4832e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_brown_v_uv2
+    second: {fileID: 2100000, guid: 870b6bda6a49e2148911e7ac3a191646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_clover_v
+    second: {fileID: 2100000, guid: d2d1d5e521d559f49b08a6126553fe81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_clover_v_uv2
+    second: {fileID: 2100000, guid: 8e016c093df059d419e4a59c9e11ed91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_hapa_v
+    second: {fileID: 2100000, guid: 23a26f6385e45b1468ee0d304a3e8dec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_hapa_v_uv2
+    second: {fileID: 2100000, guid: d7673b3ca4aa5314ba1de421cf74927c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_red_v
+    second: {fileID: 2100000, guid: 47a215376906d6949ba2b349d32abfd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_red_v_uv2
+    second: {fileID: 2100000, guid: 2782c3da58129f04f82caf2a5985daaa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_sida_v
+    second: {fileID: 2100000, guid: c31cc69687409b743978e485a6ac9ee9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_sida_v_uv2
+    second: {fileID: 2100000, guid: fabcc522d3e80b842a48c76973a3a963, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_takeha_v
+    second: {fileID: 2100000, guid: acfc6fa375999a74897cc535e8302433, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_takeha_v_uv2
+    second: {fileID: 2100000, guid: 09a250f8ae2dd6a4a89fac58f4f36412, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_yellow_v
+    second: {fileID: 2100000, guid: 50c40fa6545f09345a0e9469743dbf7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_plant_yellow_v_uv2
+    second: {fileID: 2100000, guid: ae567c7bcfeb6bd4fbb7d81922ec5bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_sabi_kusa_v
+    second: {fileID: 2100000, guid: 0f0c2f245c964034a9a981a8efad76d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_sabi_kusa_v_uv2
+    second: {fileID: 2100000, guid: 9cea7153920c3104596c6b242dedb8a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_a_v
+    second: {fileID: 2100000, guid: d3c71e5ddfdcf3f419ff37c1bc7f932b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_a_v_uv2
+    second: {fileID: 2100000, guid: 18b6738bd6db9d24b91dbf57482402e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_b_v
+    second: {fileID: 2100000, guid: 5d964ea98f5649a4dbcecbed4137cf3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_b_v_uv2
+    second: {fileID: 2100000, guid: 6921139701934754fa8ff0b8fd25111d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_c_v
+    second: {fileID: 2100000, guid: db9acbd934dd13e49b67609f6b99dbc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_soto_c_v_uv2
+    second: {fileID: 2100000, guid: 4e249639184cc3f409b242251bba832c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_uti_v
+    second: {fileID: 2100000, guid: 65fd49fe300ff944ea7dbb3dbf564852, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_take_uti_v_uv2
+    second: {fileID: 2100000, guid: badcf2eb7255f8f4eb5ce32e00262387, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_tomare_line_v
+    second: {fileID: 2100000, guid: c6c849d94e0916647b42379e4400ce8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_tomare_line_v_uv2
+    second: {fileID: 2100000, guid: f0b886191290ba145b156c091a2c3ce9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_tomare_sabi_v
+    second: {fileID: 2100000, guid: 2dab09c9f74e4564fb8e4589baf9bf07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_tomare_sabi_v_uv2
+    second: {fileID: 2100000, guid: 95729fe92aff55343a46a8a11bf3650a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_wheel_v
+    second: {fileID: 2100000, guid: 53f6c0b42e94ea84e82859495003128d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_wheel_v_uv2
+    second: {fileID: 2100000, guid: c550790853ebcca4b921d3963388264b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zm_sabi_v
+    second: {fileID: 2100000, guid: c5252f3fb1dc2e74fb313d237f0c95df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zm_sabi_v_uv2
+    second: {fileID: 2100000, guid: ec2443cd4c271ff47a1eb86f69b50e22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zm_sabi_v_uv3
+    second: {fileID: 2100000, guid: faa3b637b6e05f14ba6714b083356b44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zn_tomare_moji_v_x
+    second: {fileID: 2100000, guid: cb6c28147114ed44eb785e365f2afa53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zn_tomare_moji_v_x_uv2
+    second: {fileID: 2100000, guid: c462e6c27dc7dd74ba8732f39a6f4516, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zo_tomare_tuti_v
+    second: {fileID: 2100000, guid: 9c28f3c2e670d4345aad9036aa47aef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zo_tomare_tuti_v_uv2
+    second: {fileID: 2100000, guid: 55f0117d244b35d4fb9c688d140289f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zo_tomare_tuti_v_uv3
+    second: {fileID: 2100000, guid: 19eeb9e555203ee43bf585cda1e448f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zp_mawari_takeha_v
+    second: {fileID: 2100000, guid: 8ccdcd64f229cc94ba77767e4b4de087, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zp_mawari_takeha_v_uv2
+    second: {fileID: 2100000, guid: c42221844f5d3384e9a297c41e46a5c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zp_mawari_takeha_v_x
+    second: {fileID: 2100000, guid: 312545878eae10742b8b666bbf5e8d83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zp_mawari_takeha_v_x_uv2
+    second: {fileID: 2100000, guid: 7d5e1e74e216cfe4fa497fe4ee827e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zq_rock_v
+    second: {fileID: 2100000, guid: 61ba4531209251d44a44206593d38a5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zq_rock_v_uv2
+    second: {fileID: 2100000, guid: 65e57022739338447a2d0e22ad4a6cc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v
+    second: {fileID: 2100000, guid: caa47883a5609cd4cbb37747d9637e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v_uv2
+    second: {fileID: 2100000, guid: f9b661027df8472479949f81f2701865, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v_uv3
+    second: {fileID: 2100000, guid: f287fc5d559287740803463357942d2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v_x
+    second: {fileID: 2100000, guid: 48eccdbf07d2a4648894d2fc0a0416c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v_x_uv2
+    second: {fileID: 2100000, guid: 2dcecad1a4a6ac6498447fc4d9f51fa4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zr_tuti_b_v_x_uv3
+    second: {fileID: 2100000, guid: 187466672d756844d8f9ae4a95a7cabe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zt_tuti_kusa_v
+    second: {fileID: 2100000, guid: 6f1f536dd820e5045ba46304f25b63d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zt_tuti_kusa_v_uv2
+    second: {fileID: 2100000, guid: af69a033f60e3d644bcf72abc61e0948, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zt_tuti_kusa_v_x
+    second: {fileID: 2100000, guid: 83a761db7abecda44b229a64b4584dfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zt_tuti_kusa_v_x_uv2
+    second: {fileID: 2100000, guid: e3338899fabd98b438473237af8f8c9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zu_kusa_v
+    second: {fileID: 2100000, guid: 89a5c1448df980344b3e2d7c8173aa7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zu_kusa_v_uv2
+    second: {fileID: 2100000, guid: 535cf828dd357e64fb4a3ba2e471ad28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zu_kusa_v_x
+    second: {fileID: 2100000, guid: 82a061e1ef177e34e8a7fc3a83c114ae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zu_kusa_v_x_uv2
+    second: {fileID: 2100000, guid: 5b37ab70753b6544fae2d0edfa80f6c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zv_tuti_a_v
+    second: {fileID: 2100000, guid: 7efee32239ba3554b8186827fe6a5657, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zv_tuti_a_v_uv2
+    second: {fileID: 2100000, guid: 610db3c43e508e642888d6ed1846033f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zv_tuti_a_v_x
+    second: {fileID: 2100000, guid: 1dd54d2c31a62eb4c8845a24d59162f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zv_tuti_a_v_x_uv2
+    second: {fileID: 2100000, guid: a25a7e3a7c4c98d45bc85a9cee48098f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zx_kabe_v
+    second: {fileID: 2100000, guid: 351b95a4939da884db5f9ec6d1ada0f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zx_kabe_v_uv2
+    second: {fileID: 2100000, guid: 41c14a0ed8f985641bcebaaaded0c5b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zx_kabe_v_x
+    second: {fileID: 2100000, guid: c8299982012e4264a8d7bb82de3d5993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zx_kabe_v_x_uv2
+    second: {fileID: 2100000, guid: 04b62c53b5eb1994286af5800be5c656, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zy_kusa_nuki_v
+    second: {fileID: 2100000, guid: 9562b53c2ff353644baf5651c7fa822e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zy_kusa_nuki_v_uv2
+    second: {fileID: 2100000, guid: 7df6ae04a6a87fd418f440ad645bf10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zy_kusa_nuki_v_uv3
+    second: {fileID: 2100000, guid: d363e6941cf64ea449ab8b81f0d6ed42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zz_plant_red_mizu_otiba_v_x
+    second: {fileID: 2100000, guid: 084a0ce1b0124604cb6a0facf48eee9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zz_plant_red_mizu_otiba_v_x_uv2
+    second: {fileID: 2100000, guid: e54122e17933ce04da32f9d224c191f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zz_plant_yellow_mizu_otiba_v_x
+    second: {fileID: 2100000, guid: cf93e3c50e93f9a449af23296826a20b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tex_zz_plant_yellow_mizu_otiba_v_x_uv2
+    second: {fileID: 2100000, guid: 3f8dba5bea31c5a40b6b7a4ae5abaec0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: vertexColors
+    second: {fileID: 2100000, guid: 6bb5e99d469bf1e4ebf953e52ed388a5, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,16 @@
+tex_farm_v
+==========
+  Textures:
+    - noukou_new_0621_s3tc
+    - noukou_new_0621_mask_s3tc
+
+  Ambient Colors:
+    - 50, 50, 50, 0
+
+  Steps:
+    1: RGB = (0, 0, 0), then add (tex #1 RGB)
+         A = ((tex #1 A) * (vertex A))
+    2: RGB = (lerp from (prev. RGB) to (tex #2 RGB) using (tex #2 A))
+         A = ((tex #2 A) * (vertex A)), then add (prev. A)
+    3: RGB = ((vertex RGB) * (prev. RGB)), multiply by 2
+         A = ((vertex A) * (prev. A))
