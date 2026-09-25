@@ -59,7 +59,7 @@ public class VocabManager : MonoBehaviour
                 }
             }
         }
-        DebugListAllArrayContents();
+        //DebugListAllArrayContents();
     }
 
     void DebugListAllArrayContents()
