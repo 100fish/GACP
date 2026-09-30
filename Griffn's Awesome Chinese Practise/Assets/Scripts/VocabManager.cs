@@ -7,6 +7,11 @@ public class VocabManager : MonoBehaviour
     //create array of file paths
     public string[] vocabFilePaths;
 
+    //array of 2 dimensional arrays
+    //each array is a set of vocabs
+    //with a new word for each row
+    //Then each array (each vocab list) has 3 columns
+    //pinyin, character(s), and meaning (yisi)
     private string[][,] vocabLists;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -50,7 +55,7 @@ public class VocabManager : MonoBehaviour
                     if (line == null)
                         continue;
 
-                    Debug.Log(line);
+                    //Debug.Log(line);
                     string[] lineParts;
                     lineParts = line.Split(',');
                     vocabLists[i][ii, 0] = lineParts[0];
@@ -59,7 +64,57 @@ public class VocabManager : MonoBehaviour
                 }
             }
         }
-        //DebugListAllArrayContents();
+        //DELETE
+        bool[] newBool = new bool[2] { true, true };
+        GenerateFullVocabList(newBool);
+    }
+
+    public string[,] GenerateFullVocabList(bool[] including)
+    {
+        int vocabItemCount = 0;
+
+        //for each vocab list in vocabLists
+        for (int di = 0; di < vocabLists.Length; di++)
+        {
+            if (including[di] == false)
+                continue;
+
+            //for each row in the vocab list
+            for (int dii = 0; dii < vocabLists[di].GetLength(0); dii++)
+            {
+                //count it
+                vocabItemCount++;
+            }
+        }
+
+        string[,] fullVocabList = new string[vocabItemCount, 3];
+
+        int mi = 0;
+
+        for (int di = 0; di < vocabLists.Length; di++)
+        {
+            if (including[di] == false)
+                continue;
+
+
+            for (int dii = 0; dii < vocabLists[di].GetLength(0); dii++)
+            {
+                fullVocabList[mi, 0] = vocabLists[di][dii, 0];
+                fullVocabList[mi, 1] = vocabLists[di][dii, 1];
+                fullVocabList[mi, 2] = vocabLists[di][dii, 2];
+
+                mi++;
+            }
+        }
+
+        for (int i = 0; i < fullVocabList.GetLength(0); i++)
+        {
+            Debug.Log(fullVocabList[i, 0]);
+            Debug.Log(fullVocabList[i, 1]);
+            Debug.Log(fullVocabList[i, 2]);
+        }
+
+        return fullVocabList;
     }
 
     void DebugListAllArrayContents()
