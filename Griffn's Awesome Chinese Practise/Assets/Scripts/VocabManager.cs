@@ -65,7 +65,7 @@ public class VocabManager : MonoBehaviour
             }
         }
         //DELETE
-        bool[] newBool = new bool[2] { true, true };
+        bool[] newBool = new bool[10] { true, true, true, true, true, true, true, true, true, true };
         GenerateFullVocabList(newBool);
     }
 
@@ -76,6 +76,8 @@ public class VocabManager : MonoBehaviour
         //for each vocab list in vocabLists
         for (int di = 0; di < vocabLists.Length; di++)
         {
+            Debug.Log(including.Length);
+            Debug.Log(di);
             if (including[di] == false)
                 continue;
 
@@ -109,9 +111,9 @@ public class VocabManager : MonoBehaviour
 
         for (int i = 0; i < fullVocabList.GetLength(0); i++)
         {
-            Debug.Log(fullVocabList[i, 0]);
-            Debug.Log(fullVocabList[i, 1]);
-            Debug.Log(fullVocabList[i, 2]);
+            //Debug.Log(fullVocabList[i, 0]);
+            //Debug.Log(fullVocabList[i, 1]);
+            //Debug.Log(fullVocabList[i, 2]);
         }
 
         return fullVocabList;
@@ -124,9 +126,9 @@ public class VocabManager : MonoBehaviour
         {
             for (int dii = 0; dii < vocabLists[di].Length; dii++)
             {
-                Debug.Log(vocabLists[di][dii, 0]);
-                Debug.Log(vocabLists[di][dii, 1]);
-                Debug.Log(vocabLists[di][dii, 2]);
+                //Debug.Log(vocabLists[di][dii, 0]);
+                //Debug.Log(vocabLists[di][dii, 1]);
+                //Debug.Log(vocabLists[di][dii, 2]);
             }
         }
     }

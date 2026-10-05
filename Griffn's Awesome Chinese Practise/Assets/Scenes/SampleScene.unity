@@ -168,7 +168,7 @@ MonoBehaviour:
   vocabManager: {fileID: 1507997523}
   worldCanvas: {fileID: 1241159127}
   flashBoxSpawn: {fileID: 1025553370}
-  including: 0101
+  including: 01010101010101010101
 --- !u!1 &252270926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,6 +1870,14 @@ MonoBehaviour:
   vocabFilePaths:
   - Assets/Vocabs/Chapter1Vocab1_2-01-02.txt
   - Assets/Vocabs/Chapter1Vocab2_2-01-04.txt
+  - Assets/Vocabs/Chapter2Vocab1_2-02-02.txt
+  - Assets/Vocabs/Chapter2Vocab2_2-02-04.txt
+  - Assets/Vocabs/Chapter3Vocab1_2-03-02.txt
+  - Assets/Vocabs/Chapter3Vocab2_2-03-04.txt
+  - Assets/Vocabs/Chapter4Vocab1_2-04-02.txt
+  - Assets/Vocabs/Chapter4Vocab2_2-04-04.txt
+  - Assets/Vocabs/Chapter5Vocab1_2-05-02.txt
+  - Assets/Vocabs/Chapter5Vocab2_2-05-04.txt
 --- !u!4 &1507997524
 Transform:
   m_ObjectHideFlags: 0

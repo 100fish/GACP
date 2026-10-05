@@ -1,0 +1,22 @@
+la3oshi1,老师,teacher
+za3oshang,早上,morning
+za3o,早,early
+ni3men,你们,you(plural)
+men,们,plural suffix
+zhe4,这,this
+shi4,是,is/am/are/to be
+pe2ngyou,朋友,friend
+ga1ng,刚,just
+da4o,到,to reach
+ni2n,您,you(polite)
+gui4xi4ng,贵姓,one's (honorable) surname
+na3,哪,which
+guo2,国,country
+re2n,人,person
+xue2xi2,学习,to study/to learn
+xue2,学,to study (with an object)
+Ha4nyu3,汉语,Chinese(Mandarin)
+za4ijia4n,再见,goodbye
+Che2n,陈,Chen; a surname
+Be3iji1ng,北京,Beijing
+Me3iguo2,美国,the United States
