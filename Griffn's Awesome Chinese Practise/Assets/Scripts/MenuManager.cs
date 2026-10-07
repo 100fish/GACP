@@ -42,6 +42,7 @@ public class MenuManager : MonoBehaviour
     {
         AddLerp(thisCamera.transform, boxCameraPoint.position, boxCameraPoint.rotation, 3);
         menuPanel.SetActive(false);
+        boxPanel.SetActive(true);
     }
 
     private void Update()

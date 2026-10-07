@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,7 +32,7 @@ public class BoxManager : MonoBehaviour
     }
 
     private BoxState boxState;
-    private BoxState startingState;
+    [SerializeField] private BoxState startingState;
 
     [SerializeField] Transform[] boxPoints = new Transform[3];
 
@@ -40,6 +41,9 @@ public class BoxManager : MonoBehaviour
     private InputAsset playerInput;
     private void Awake()
     {
+        
+        boxState = startingState;
+
         playerInput = new InputAsset();
     }
 
@@ -115,11 +119,14 @@ public class BoxManager : MonoBehaviour
     private void InputNext(InputAction.CallbackContext context)
     {
         currentBox++;
+        progressText.text = $"{currentBox}/{boxCount}";
+        backProgressText.text = $"{currentBox}/{boxCount}";
+
         GoTo(startingState);
     }
 
     private int currentBox = 0;
-
+    private int boxCount = 0;
     private void GoTo(BoxState newState)
     {
         menuManager.AddLerp(
@@ -134,9 +141,13 @@ public class BoxManager : MonoBehaviour
         boxState = newState;
     }
 
+    [SerializeField] TextMeshProUGUI progressText;
+    [SerializeField] TextMeshProUGUI backProgressText;
+
     public void StartBoxes()
     {
         myVocab = vocabManager.GenerateFullVocabList(including);
+        boxCount = myVocab.GetLength(0);
 
         List<int> randomIndex = new List<int>();
 
